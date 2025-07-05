@@ -95,15 +95,13 @@ The frontend will be available at `http://localhost:3000`
 ### Backend
 
 - **FastAPI**: Modern, fast web framework for building APIs
-- **httpx**: HTTP client for making requests to external APIs
-- **Pydantic**: Data validation using Python type annotations
 
 ### Frontend
 
 - **Next.js**: React framework for production
 - **TypeScript**: Type-safe JavaScript
 - **Tailwind CSS**: Utility-first CSS framework
-- **Chart.js**: Interactive charts and graphs
+- **Plotly.js**: Interactive charts and graphs
 
 ## Contributing
 
