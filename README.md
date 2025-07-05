@@ -7,7 +7,7 @@ A full-stack web application for viewing and analyzing federal government spendi
 - **Real-time Data**: Fetches spending data from the official USA Spending API
 - **Interactive Charts**: Visualizes spending data using dynamic charts
 - **Filtering**: Filter data by year, quarter, and agency
-- **Responsive Design**: Works on desktop and mobile devices
+- **Responsive Design**: Works on desktop
 - **Modern UI**: Built with Next.js and Tailwind CSS
 
 ## Project Structure
