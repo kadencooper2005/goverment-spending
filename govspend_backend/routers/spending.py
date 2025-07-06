@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Query
-from services.usaspending import fetch_spending
+from govspend_backend.services.usaspending import fetch_spending
 
 router = APIRouter(prefix="/spending", tags=['Spending'])
 
