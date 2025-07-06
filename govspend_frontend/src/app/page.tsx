@@ -55,7 +55,7 @@ export default function GovSpend() {
 
     try {
       const res = await fetch(
-        `http://localhost:8000/spending/?year=${yearNum}&quarter=${quarterNum}&agency=${encodeURIComponent(
+        `https://goverment-spending.onrender.com/spending/?year=${yearNum}&quarter=${quarterNum}&agency=${encodeURIComponent(
           agency.trim()
         )}`
       );
