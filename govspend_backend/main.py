@@ -6,14 +6,15 @@ import os
 load_dotenv()
 
 
-URL = os.getenv("URL")
+ursl = os.getenv("URL", "")
+allowed_origins = [u.strips() for u in ursl.split(",") if u]
 
 ## Entry point for the API
 app = FastAPI(title="GovSpend Intel API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[URL],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["GET"],
     allow_headers=["*"],
