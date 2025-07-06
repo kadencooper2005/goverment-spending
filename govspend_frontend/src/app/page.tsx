@@ -16,7 +16,7 @@ import { SpendingResponse, SpendingResult } from "../types/spending";
 import dynamic from "next/dynamic";
 
 // Dynamically import the BarChart with SSR disabled
-const BarChart = dynamic(() => import("../../components/BarChart"), {
+const BarChart = dynamic(() => import("../components/BarChart"), {
   ssr: false,
 });
 

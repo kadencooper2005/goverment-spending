@@ -2,7 +2,7 @@
 "use client";
 
 import Plot from "react-plotly.js";
-import { SpendingResult } from "../src/types/spending";
+import { SpendingResult } from "../../src/types/spending";
 
 type Props = {
   data: SpendingResult[];
