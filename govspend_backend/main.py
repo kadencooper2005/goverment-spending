@@ -7,7 +7,7 @@ load_dotenv()
 
 
 ursl = os.getenv("URL", "")
-allowed_origins = [u.strips() for u in ursl.split(",") if u]
+allowed_origins = [u.strip() for u in ursl.split(",") if u]
 
 ## Entry point for the API
 app = FastAPI(title="GovSpend Intel API")
