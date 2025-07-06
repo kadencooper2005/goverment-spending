@@ -289,7 +289,10 @@ export default function GovSpend() {
 
         {/* Footer */}
         <div className="text-center mt-12 text-slate-500">
-          <p>© 2024 GovSpend - Government Spending Transparency Tool</p>
+          <p>
+            © {new Date().getFullYear()} GovSpend - Government Spending
+            Transparency Tool
+          </p>
         </div>
       </div>
     </div>
