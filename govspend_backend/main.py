@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routers import spending
+from govspend_backend.routers import spending
 from fastapi.middleware.cors import CORSMiddleware
 
 ## Entry point for the API
